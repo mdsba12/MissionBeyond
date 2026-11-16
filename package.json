@@ -1,0 +1,13 @@
+{
+  "name": "deep-run",
+  "version": "1.0.0",
+  "description": "Mission Beyond: a space mission game for the NASA Space Apps Challenge (Space Mission Design Game)",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check-sources.mjs",
+    "credits": "node scripts/build-credits.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}
